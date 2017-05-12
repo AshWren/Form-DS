@@ -12,8 +12,6 @@ function savePost(e) {
 
     $.post(url, postObj, function(result){
         loadPosts();
-    
-    
     });
 }
 
